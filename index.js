@@ -16,7 +16,6 @@ app.use(cors(corsOptions))
 //Enable data reading
 app.use(express.json())
 
-
 connectDB();
 
 //Enable Public Folder

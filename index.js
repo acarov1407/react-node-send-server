@@ -19,7 +19,7 @@ app.use(express.json())
 connectDB();
 
 //Enable Public Folder
-app.use(express.static('./uploads'))
+app.use(express.static(__dirname + '/uploads'));
 
 const PORT = process.env.PORT || 4000;
 
